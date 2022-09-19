@@ -43,7 +43,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código: 
-  return y-x;
+  return x-y;
 
 }
 
@@ -175,12 +175,12 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if ( num === 0){
+  if (numero === 0){
     return false;
-  } else if (num >0 ){
-      return(" es positivo");
+  } else if (numero>0 ){
+      return "Es positivo";
   } else{
- return ("es negativo");
+ return  "Es negativo";
     }
 }
 
@@ -204,7 +204,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return `hola` + nombre + `!`;
+  return 'Hola ' + nombre + '!';
   
 }
 
